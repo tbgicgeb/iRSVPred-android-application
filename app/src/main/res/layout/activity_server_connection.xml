@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ServerConnectionActivity">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:background="@drawable/algo_background"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbarServer"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:elevation="4dp"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/home_image_1"
+            android:src="@drawable/rice_icon"
+            android:layout_below="@id/toolbarServer"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:id="@+id/home_bt_1"
+            android:layout_below="@+id/home_image_1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_select"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:id="@+id/home_bt_2"
+            android:layout_below="@+id/home_image_1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_camera"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:background="@drawable/button_upload"
+            android:layout_marginTop="50dp"
+            android:id="@+id/home_bt_3"
+            android:layout_below="@id/home_bt_1"
+            android:layout_centerHorizontal="true"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Select an Image"
+            android:id="@+id/test_text"
+            android:layout_below="@id/home_bt_3"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Image Name"
+            android:visibility="gone"
+            android:id="@+id/test_button"
+            android:layout_below="@id/test_text"
+            android:layout_centerHorizontal="true"/>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+        <TextView
+            android:layout_below="@id/toolbarServer"
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="#000"
+            android:text="Please Wait... Processing Your Request"
+            android:layout_marginTop="50dp"
+            android:background="#FFF"
+            android:gravity="center"
+            android:textSize="40sp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:indeterminate="true"
+            android:visibility="gone"
+            android:layout_marginTop="100dp"
+            android:layout_below="@+id/progressText"
+            android:layout_centerHorizontal="true"
+            />
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progressBar"
+            style="@style/SpinKitView.Large.FoldingCube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="#FF6F00"
+            android:visibility="gone"
+            android:layout_marginTop="100dp"
+            android:layout_below="@+id/progressText"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Model Rice WC 502"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:id="@+id/model502"
+            android:visibility="gone"
+            android:layout_below="@id/toolbarServer"/>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/model502"
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Model Rice WC 251"
+            android:textColor="#000"
+            android:id="@+id/model251"
+            android:visibility="gone"
+            android:layout_below="@id/recycleView"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/model251"
+            android:id="@+id/recycleView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
