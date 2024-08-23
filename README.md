@@ -7,7 +7,7 @@
 <br>
 In agriculture as well as trade, seed variety is pivotal for determining crop yield, price, and quality. However, identification of the variety either requires a laboratory test or being relied on a experienced person both of which is time consuming and costly.
 
-Addressing this gap, we present iRSVPred, a groundbreaking Android application harnessing deep learning based on seed images. Developed to cater to the needs of paddy farmers, iRSVPred offers an alternative, easily accessible, and rapid method for identifying ten major varieties of basmati rice. These include Pusa basmati 1121, Pusa basmati 1509, Pusa basmati 1637, CSR 30 (salt-tolerant basmati), DHBT-3, PB-1, PB-6, BAS-370, 1718, and 1728.
+Addressing this gap, we present iRSVPred, a groundbreaking Android application harnessing machine learning based on seed images. Developed to cater to the needs of paddy farmers, iRSVPred offers an alternative, easily accessible, and rapid method for identifying ten major varieties of basmati rice. These include Pusa basmati 1121, Pusa basmati 1509, Pusa basmati 1637, CSR 30 (salt-tolerant basmati), DHBT-3, PB-1, PB-6, BAS-370, 1718, and 1728.
 
 With iRSVPred, farmers can seamlessly upload seed images directly from their camera, eliminating the need for costly and time-consuming molecular techniques. This user-friendly solution empowers farmers to make informed decisions about their crops, ultimately enhancing agricultural productivity and quality. Experience the future of paddy seed identification with iRSVPred – bridging the gap between cutting-edge technology and practical farming needs.
 
