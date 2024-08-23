@@ -1,5 +1,4 @@
 # iRSVPred 1.0
-## Also known as [Baspred]((https://play.google.com/store/apps/details?id=org.icgeb.basmati_seed_icgeb_3)) - available on [Play Store](https://play.google.com/store/apps/details?id=org.icgeb.basmati_seed_icgeb_3)
 
 <div align="center">
   <img src="https://apexbtic.icgeb.res.in/rice/ss_1.jpeg" height="200px">
@@ -31,10 +30,7 @@ Jsoup:1.12.1 – for data extraction
 
 
 ## Android Developer
-Baspred android application is developed by [Hemant Kumar Joon](https://github.com/hemantjoon), a PhD student from our lab - Translational Bioinformatics Group, International Centre for Genetic Engineering and Biotechnology.\
-[Linkedin](https://www.linkedin.com/in/hemantjoon/) | [ResearchGate](https://www.researchgate.net/profile/Hemant-Joon) | [Github](https://github.com/hemantjoon)
-
-Get the android app at : [Baspred](https://play.google.com/store/apps/details?id=org.icgeb.basmati_seed_icgeb_3)\
+Android application is developed by [Hemant Kumar Joon]((https://www.linkedin.com/in/hemantjoon/)
 To know more about the Machine learning model, please visit the [Repo](https://github.com/arunsharma8osdd/iRSVPred).\
 Visit our [Webserver](https://apexbtic.icgeb.res.in/rice)
 
