@@ -32,7 +32,7 @@ Jsoup:1.12.1 – for data extraction
 ## Android Developer
 Android application is developed by [Hemant Kumar Joon](https://www.linkedin.com/in/hemantjoon/)\
 To know more about the Machine learning model, please visit the [Repo](https://github.com/arunsharma8osdd/iRSVPred).\
-Visit our [Webserver](https://apexbtic.icgeb.res.in/rice)
+Visit our [Web server](https://apexbtic.icgeb.res.in/rice)
 
 ## License
 
